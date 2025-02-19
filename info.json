@@ -1,15 +1,15 @@
 {
     "name": "FactorioExtended-Plus-Weaponry",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "factorio_version": "2.0",
     "date": "25-10-2024",
     "title": "FactorioExtended Plus-Weaponry",
-    "author": "rubesaca forked from jimmyjon711 (Original Author: Nath Gamer)",
+    "author": "roland77, rubesaca forked from jimmyjon711 (Original Author: Nath Gamer)",
     "contributers": "billbo99",
     "homepage": "",
     "description": "",
     "dependencies": [
-        "base >= 2.0.0",
-        "FactorioExtended-Plus-Core >= 2.0.0"
+        "base >= 2.0.32",
+        "FactorioExtended-Plus-Core >= 2.0.1"
     ]
 }

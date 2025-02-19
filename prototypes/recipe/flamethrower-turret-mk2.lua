@@ -6,11 +6,11 @@ data:extend(
             enabled = false,
             energy_required = 40,
             ingredients = {
-                {"flamethrower-turret", 2},
-                {"titanium-alloy", 10},
-                {"processing-unit", 5}
+                {type="item", name="flamethrower-turret", amount=2},
+                {type="item", name="titanium-alloy", amount=10},
+                {type="item", name="processing-unit", amount=5}
             },
-            result = "flamethrower-turret-mk2"
+            results = {{type="item", name="flamethrower-turret-mk2", amount=1}}
         }
     }
 )

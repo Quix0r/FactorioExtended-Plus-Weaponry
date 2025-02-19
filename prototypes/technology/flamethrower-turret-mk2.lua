@@ -6,7 +6,7 @@ data:extend(
             type = "technology",
             name = "flamethrower-2",
             icons = {{icon = "__base__/graphics/technology/flamethrower.png", icon_size = 256, tint = green_tint}},
-            prerequisites = {"flamethrower", "advanced-electronics-2", "titanium-processing"},
+            prerequisites = {"flamethrower", "processing-unit", "titanium-processing"},
             effects = {
                 {
                     type = "unlock-recipe",

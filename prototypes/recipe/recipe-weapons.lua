@@ -7,13 +7,11 @@ data:extend(
     energy_required = 10,
     ingredients =
     {
-      {"gun-turret", 2},
-      {"titanium-alloy", 10}
+      {type="item", name="gun-turret", amount=2},
+      {type="item", name="titanium-alloy", amount=10}
     },
-    result = "gun-turret-mk2"
+    results = {{type="item", name="gun-turret-mk2", amount=1}}
   },
-  
-  
   {
     type = "recipe",
     name = "laser-turret-mk2",
@@ -21,12 +19,12 @@ data:extend(
     energy_required = 20,
     ingredients =
     {
-      {"laser-turret", 2},
-      {"titanium-alloy", 10},
-      {"processing-unit", 10},
-      {"battery-equipment", 5}
+      {type="item", name="laser-turret", amount=2},
+      {type="item", name="titanium-alloy", amount=10},
+      {type="item", name="processing-unit", amount=10},
+      {type="item", name="battery-equipment", amount=5}
     },
-    result = "laser-turret-mk2"
+    results = {{type="item", name="laser-turret-mk2", amount=1}}
   },
   {
     type = "recipe",
@@ -35,11 +33,11 @@ data:extend(
     energy_required = 5,
     ingredients =
     {
-      {"copper-plate", 2},
-      {"titanium-alloy", 2},
-      {"piercing-rounds-magazine", 1}
+      {type="item", name="copper-plate", amount=2},
+      {type="item", name="titanium-alloy", amount=2},
+      {type="item", name="piercing-rounds-magazine", amount=1}
     },
-    result = "shattering-bullet-magazine"
+    results = {{type="item", name="shattering-bullet-magazine", amount=1}}
   },
   {
     type = "recipe",
@@ -48,10 +46,10 @@ data:extend(
     energy_required = 3,
     ingredients =
     {
-      {"copper-plate", 2},
-      {"titanium-alloy", 2}
+      {type="item", name="copper-plate", amount=2},
+      {type="item", name="titanium-alloy", amount=2}
     },
-    result = "shattering-shotgun-shell"
+    results = {{type="item", name="shattering-shotgun-shell", amount=1}}
   },
   {
     type = "recipe",
@@ -60,10 +58,10 @@ data:extend(
     energy_required = 20,
     ingredients =
     {
-      {"stone-wall", 1},
-      {"iron-plate", 2}
+      {type="item", name="stone-wall", amount=1},
+      {type="item", name="iron-plate", amount=2}
     },
-    result = "iron-wall"
+    results = {{type="item", name="iron-wall", amount=1}}
   },
   {
     type = "recipe",
@@ -72,10 +70,10 @@ data:extend(
     energy_required = 20,
     ingredients =
     {
-      {"iron-wall", 1},
-      {"steel-plate", 2}
+      {type="item", name="iron-wall", amount=1},
+      {type="item", name="steel-plate", amount=2}
     },
-    result = "steel-wall"
+    results = {{type="item", name="steel-wall", amount=1}}
   },
   {
     type = "recipe",
@@ -84,10 +82,10 @@ data:extend(
     energy_required = 20,
     ingredients =
     {
-      {"steel-wall", 1},
-      {"titanium-alloy", 2}
+      {type="item", name="steel-wall", amount=1},
+      {type="item", name="titanium-alloy", amount=2}
     },
-    result = "titanium-wall"
+    results = {{type="item", name="titanium-wall", amount=1}}
   },
   {
     type = "recipe",
@@ -96,11 +94,10 @@ data:extend(
     energy_required = 20,
     ingredients =
     {
-      {"gate", 2},
-      {"iron-plate", 10}
-    
+      {type="item", name="gate", amount=2},
+      {type="item", name="iron-plate", amount=10}
     },
-    result = "iron-gate"
+    results = {{type="item", name="iron-gate", amount=1}}
   },
   {
     type = "recipe",
@@ -109,10 +106,10 @@ data:extend(
     energy_required = 20,
     ingredients =
     {
-      {"iron-gate", 2},
-      {"steel-plate", 10}
+      {type="item", name="iron-gate", amount=2},
+      {type="item", name="steel-plate", amount=10}
     },
-    result = "steel-gate"
+    results = {{type="item", name="steel-gate", amount=1}}
   },
   {
     type = "recipe",
@@ -121,10 +118,9 @@ data:extend(
     energy_required = 20,
     ingredients =
     {
-      {"steel-gate", 2},
-      {"titanium-alloy", 10},
-    
+      {type="item", name="steel-gate", amount=2},
+      {type="item", name="titanium-alloy", amount=10},
     },
-    result = "titanium-gate"
+    results = {{type="item", name="titanium-gate", amount=1}}
   }
 })

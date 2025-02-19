@@ -42,7 +42,7 @@ data:extend(
                     recipe = "laser-turret-mk2"
                 }
             },
-            prerequisites = {"laser-turret", "titanium-processing", "advanced-electronics-2", "battery-equipment"},
+            prerequisites = {"laser-turret", "titanium-processing", "processing-unit", "battery-equipment"},
             unit = {
                 count = 400,
                 ingredients = {

@@ -11,11 +11,9 @@ turret2.icons = {{icon = turret2.icon, icon_size = turret2.icon_size, tint = Con
 turret2.icon = nil
 
 for _, direction in pairs({"north", "east", "south", "west"}) do
-    turret2.base_picture[direction].layers[1].tint = Constant.green_tint
-    turret2.base_picture[direction].layers[1].hr_version.tint = Constant.green_tint
+    turret2.graphics_set.base_visualisation.animation[direction].layers[1].tint = Constant.green_tint
 
     turret2.fluid_box.pipe_covers[direction].layers[1].tint = Constant.green_tint
-    turret2.fluid_box.pipe_covers[direction].layers[1].hr_version.tint = Constant.green_tint
 end
 
 data:extend({turret2})

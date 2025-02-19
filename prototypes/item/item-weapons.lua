@@ -6,8 +6,8 @@ data:extend(
             icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/shattering-bullet-magazine.png",
             icon_size = 64,
             icon_mipmaps = 4,
+            ammo_category = "bullet",
             ammo_type = {
-                category = "bullet",
                 action = {
                     type = "direct",
                     action_delivery = {
@@ -40,8 +40,8 @@ data:extend(
             icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/shattering-shotgun-shell.png",
             icon_size = 64,
             icon_mipmaps = 4,
+            ammo_category = "shotgun-shell",
             ammo_type = {
-                category = "shotgun-shell",
                 target_type = "direction",
                 source_effects = {
                     type = "create-explosion",
