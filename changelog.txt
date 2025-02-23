@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.2
+Date: 23-02-2025
+  Changes:
+    - Shatttering shotgun shell now depends on generic shotgut shell as the magazine does, too
+    - similar to generic "upgraded" shell, 5 copper plates, 2 generic shells and 2 titanium
+    - added build script for easy deployment (ZIP file)
+---------------------------------------------------------------------------------------------------
 Version: 2.0.1
 Date: 19-02-2025
   Fixes:
@@ -28,83 +35,83 @@ Date: 2020-11-24
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.2
 Date: 21. 11. 2020
-  Changes :
+  Changes:
     - Updates to fast replaceable groups
 
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.1
 Date: 13. 09. 2020
-  Changes :
+  Changes:
     - Updated icons so they so up correctly in update planner
 
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 07. 09. 2020
-  Changes :
+  Changes:
     - Updated icons to 64x64,  matching vanilla
 ---------------------------------------------------------------------------------------------------
 Version: 0.4.2
 Date: 07. 02. 2020
-  Changes :
+  Changes:
     - minable.result fixed for steel / titanium walls
   Fixed :
     - Cleared icon_mipmaps warnings
 ---------------------------------------------------------------------------------------------------
 Version: 0.4.1
 Date: 28. 01. 2020
-  Changes :
+  Changes:
     - Fixed sounds for mk2 turret based on changed from 0.18.2
     - General code refactor
 ---------------------------------------------------------------------------------------------------
 Version: 0.4.0
 Date: 21. 01. 2020
-  Changes :
+  Changes:
     - Support 0.18
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.1
 Date: 19. 01. 2020
-  Changes :
+  Changes:
     - Added flamethrower turret mk2 (range +5 tiles, damage_modifier +50%)
   Bug fixes :
     - Gun Turret mk2 now gets bonuses added with each increase of physical-projectile-damage
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.0
 Date: 30. 12. 2019
-  Changes :
+  Changes:
     - Added thumbnail
     - Reordered changelog.txt
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.3
 Date: 01. 07. 2020
-  Changes :
+  Changes:
     - Fix mk2 Laser turrent "max_length" to 30 to match "range" of 36
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.2
 Date: 03. 10. 2019
-  Changes :
+  Changes:
     - Reverting laser turret range and damage modifier back
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.1
 Date: 03. 03. 2019
-  Changes :
+  Changes:
     - Updating graphics and properties
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.0
 Date: 03. 01. 2019
-  Changes :
+  Changes:
     - Updating to work with 0.17
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.5
 Date: 08. 25. 2018
-  Changes :
+  Changes:
     - Moved repair pack and technology locale to core since that is where the entity is at.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.4
 Date: 04. 30. 2018
-  Changes :
+  Changes:
     - Making MK2 Turrets fast replaceable with vanilla turrets and laser turrets
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.3
 Date: 03. 30. 2018
-  Changes :
+  Changes:
     - Re-balancing science

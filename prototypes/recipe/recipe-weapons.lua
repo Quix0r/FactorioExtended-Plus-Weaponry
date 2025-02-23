@@ -46,8 +46,9 @@ data:extend(
     energy_required = 3,
     ingredients =
     {
-      {type="item", name="copper-plate", amount=2},
-      {type="item", name="titanium-alloy", amount=2}
+      {type="item", name="copper-plate", amount=5},
+      {type="item", name="titanium-alloy", amount=2},
+      {type="item", name="shotgun-shell", amount=2}
     },
     results = {{type="item", name="shattering-shotgun-shell", amount=1}}
   },
