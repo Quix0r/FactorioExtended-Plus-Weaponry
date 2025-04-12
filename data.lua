@@ -1,7 +1,4 @@
-require("prototypes.entity.__init__")
-require("prototypes.item.items")
-require("prototypes.item.item-weapons")
-require("prototypes.recipe.recipe-weapons")
-require("prototypes.recipe.flamethrower-turret-mk2")
-require("prototypes.technology.technology-weapons")
-require("prototypes.technology.flamethrower-turret-mk2")
+-- Load all prototypes
+for _, dir in pairs({"entity", "item", "recipe", "technology"}) do
+    require("prototypes." .. dir .. ".__init__")
+end
