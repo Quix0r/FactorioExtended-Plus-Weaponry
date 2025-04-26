@@ -1,15 +1,15 @@
 local function wall_pictures(wall, folder)
-    wall.pictures.single.layers[1].filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/" .. folder .. "/hr-wall-single.png"
-    wall.pictures.straight_vertical.layers[1].filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/" .. folder .. "/hr-wall-vertical.png"
-    wall.pictures.straight_horizontal.layers[1].filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/" .. folder .. "/hr-wall-horizontal.png"
-    wall.pictures.corner_right_down.layers[1].filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/" .. folder .. "/hr-wall-corner-right.png"
-    wall.pictures.corner_left_down.layers[1].filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/" .. folder .. "/hr-wall-corner-left.png"
-    wall.pictures.t_up.layers[1].filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/" .. folder .. "/hr-wall-t.png"
-    wall.pictures.ending_right.layers[1].filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/" .. folder .. "/hr-wall-ending-right.png"
-    wall.pictures.ending_left.layers[1].filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/" .. folder .. "/hr-wall-ending-left.png"
-    wall.pictures.filling.filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/" .. folder .. "/hr-wall-filling.png"
-    wall.pictures.water_connection_patch.sheets[1].filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/" .. folder .. "/hr-wall-patch.png"
-    wall.pictures.gate_connection_patch.sheets[1].filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/" .. folder .. "/hr-wall-gate.png"
+    wall.pictures.single.layers[1].filename = "__FactorioExtended-Plus-Assets__/weaponry/entity/" .. folder .. "/hr-wall-single.png"
+    wall.pictures.straight_vertical.layers[1].filename = "__FactorioExtended-Plus-Assets__/weaponry/entity/" .. folder .. "/hr-wall-vertical.png"
+    wall.pictures.straight_horizontal.layers[1].filename = "__FactorioExtended-Plus-Assets__/weaponry/entity/" .. folder .. "/hr-wall-horizontal.png"
+    wall.pictures.corner_right_down.layers[1].filename = "__FactorioExtended-Plus-Assets__/weaponry/entity/" .. folder .. "/hr-wall-corner-right.png"
+    wall.pictures.corner_left_down.layers[1].filename = "__FactorioExtended-Plus-Assets__/weaponry/entity/" .. folder .. "/hr-wall-corner-left.png"
+    wall.pictures.t_up.layers[1].filename = "__FactorioExtended-Plus-Assets__/weaponry/entity/" .. folder .. "/hr-wall-t.png"
+    wall.pictures.ending_right.layers[1].filename = "__FactorioExtended-Plus-Assets__/weaponry/entity/" .. folder .. "/hr-wall-ending-right.png"
+    wall.pictures.ending_left.layers[1].filename = "__FactorioExtended-Plus-Assets__/weaponry/entity/" .. folder .. "/hr-wall-ending-left.png"
+    wall.pictures.filling.filename = "__FactorioExtended-Plus-Assets__/weaponry/entity/" .. folder .. "/hr-wall-filling.png"
+    wall.pictures.water_connection_patch.sheets[1].filename = "__FactorioExtended-Plus-Assets__/weaponry/entity/" .. folder .. "/hr-wall-patch.png"
+    wall.pictures.gate_connection_patch.sheets[1].filename = "__FactorioExtended-Plus-Assets__/weaponry/entity/" .. folder .. "/hr-wall-gate.png"
 end
 
 data.raw["wall"]["stone-wall"].hide_resistances = false
@@ -18,7 +18,7 @@ data.raw["wall"]["stone-wall"].hide_resistances = false
 local iwall = table.deepcopy(data.raw["wall"]["stone-wall"])
 iwall.name = "iron-wall"
 iwall.minable.result = iwall.name
-iwall.icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/iron-wall.png"
+iwall.icon = "__FactorioExtended-Plus-Assets__/weaponry/icons/iron-wall.png"
 iwall.icon_size = 32
 iwall.icon_mipmaps = nil
 
@@ -38,7 +38,7 @@ wall_pictures(iwall, iwall.name)
 local swall = table.deepcopy(data.raw["wall"]["stone-wall"])
 swall.name = "steel-wall"
 swall.minable.result = swall.name
-swall.icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/steel-wall.png"
+swall.icon = "__FactorioExtended-Plus-Assets__/weaponry/icons/steel-wall.png"
 swall.icon_size = 32
 swall.icon_mipmaps = nil
 
@@ -59,7 +59,7 @@ wall_pictures(swall, swall.name)
 local twall = table.deepcopy(data.raw["wall"]["stone-wall"])
 twall.name = "titanium-wall"
 twall.minable.result = twall.name
-twall.icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/titanium-wall.png"
+twall.icon = "__FactorioExtended-Plus-Assets__/weaponry/icons/titanium-wall.png"
 twall.icon_size = 32
 twall.icon_mipmaps = nil
 

@@ -1,13 +1,13 @@
 local function gate_pictures(gate, folder)
-    gate.vertical_animation.layers[1].filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/" .. folder .. "/hr-gate-vertical.png"
-    gate.horizontal_animation.layers[1].filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/" .. folder .. "/hr-gate-horizontal.png"
-    gate.horizontal_rail_animation_left.layers[1].filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/" .. folder .. "/hr-gate-rail-horizontal-left.png"
-    gate.horizontal_rail_animation_right.layers[1].filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/" .. folder .. "/hr-gate-rail-horizontal-right.png"
-    gate.vertical_rail_animation_left.layers[1].filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/" .. folder .. "/hr-gate-rail-vertical-left.png"
-    gate.vertical_rail_animation_right.layers[1].filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/" .. folder .. "/hr-gate-rail-vertical-right.png"
-    gate.vertical_rail_base.filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/" .. folder .. "/hr-gate-rail-base-vertical.png"
-    gate.horizontal_rail_base.filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/" .. folder .. "/hr-gate-rail-base-horizontal.png"
-    gate.wall_patch.layers[1].filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/" .. folder .. "/hr-gate-wall-patch.png"
+    gate.vertical_animation.layers[1].filename = "__FactorioExtended-Plus-Assets__/weaponry/entity/" .. folder .. "/hr-gate-vertical.png"
+    gate.horizontal_animation.layers[1].filename = "__FactorioExtended-Plus-Assets__/weaponry/entity/" .. folder .. "/hr-gate-horizontal.png"
+    gate.horizontal_rail_animation_left.layers[1].filename = "__FactorioExtended-Plus-Assets__/weaponry/entity/" .. folder .. "/hr-gate-rail-horizontal-left.png"
+    gate.horizontal_rail_animation_right.layers[1].filename = "__FactorioExtended-Plus-Assets__/weaponry/entity/" .. folder .. "/hr-gate-rail-horizontal-right.png"
+    gate.vertical_rail_animation_left.layers[1].filename = "__FactorioExtended-Plus-Assets__/weaponry/entity/" .. folder .. "/hr-gate-rail-vertical-left.png"
+    gate.vertical_rail_animation_right.layers[1].filename = "__FactorioExtended-Plus-Assets__/weaponry/entity/" .. folder .. "/hr-gate-rail-vertical-right.png"
+    gate.vertical_rail_base.filename = "__FactorioExtended-Plus-Assets__/weaponry/entity/" .. folder .. "/hr-gate-rail-base-vertical.png"
+    gate.horizontal_rail_base.filename = "__FactorioExtended-Plus-Assets__/weaponry/entity/" .. folder .. "/hr-gate-rail-base-horizontal.png"
+    gate.wall_patch.layers[1].filename = "__FactorioExtended-Plus-Assets__/weaponry/entity/" .. folder .. "/hr-gate-wall-patch.png"
 end
 
 data.raw["gate"]["gate"].hide_resistances = false
@@ -16,7 +16,7 @@ data.raw["gate"]["gate"].hide_resistances = false
 local igate = table.deepcopy(data.raw["gate"]["gate"])
 igate.name = "iron-gate"
 igate.minable.result = igate.name
-igate.icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/iron-gate.png"
+igate.icon = "__FactorioExtended-Plus-Assets__/weaponry/icons/iron-gate.png"
 igate.icon_size = 32
 igate.icon_mipmaps = nil
 
@@ -36,7 +36,7 @@ gate_pictures(igate, igate.name)
 local sgate = table.deepcopy(data.raw["gate"]["gate"])
 sgate.name = "steel-gate"
 sgate.minable.result = sgate.name
-sgate.icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/steel-gate.png"
+sgate.icon = "__FactorioExtended-Plus-Assets__/weaponry/icons/steel-gate.png"
 sgate.icon_size = 32
 sgate.icon_mipmaps = nil
 
@@ -57,7 +57,7 @@ gate_pictures(sgate, sgate.name)
 local tgate = table.deepcopy(data.raw["gate"]["gate"])
 tgate.name = "titanium-gate"
 tgate.minable.result = tgate.name
-tgate.icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/titanium-gate.png"
+tgate.icon = "__FactorioExtended-Plus-Assets__/weaponry/icons/titanium-gate.png"
 tgate.icon_size = 32
 tgate.icon_mipmaps = nil
 

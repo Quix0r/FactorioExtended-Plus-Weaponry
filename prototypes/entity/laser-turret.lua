@@ -1,7 +1,7 @@
 local turret2 = table.deepcopy(data.raw["electric-turret"]["laser-turret"])
 turret2.name = "laser-turret-mk2"
 turret2.minable.result = turret2.name
-turret2.icon = "__FactorioExtended-Plus-Weaponry__/graphics/icons/laser-turret-mk2.png"
+turret2.icon = "__FactorioExtended-Plus-Assets__/weaponry/icons/laser-turret-mk2.png"
 turret2.icon_size = 64
 turret2.icon_mipmaps = 4
 
@@ -15,10 +15,10 @@ turret2.attack_parameters.range = 36 -- 24
 turret2.attack_parameters.ammo_type.action.action_delivery.max_length = 36 -- 24
 turret2.attack_parameters.ammo_type.action.action_delivery.duration = 20 -- 40
 
-turret2.folded_animation.layers[1].filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/laser-turret-mk2/hr-laser-turret-raising-mk2.png"
-turret2.preparing_animation.layers[1].filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/laser-turret-mk2/hr-laser-turret-raising-mk2.png"
-turret2.prepared_animation.layers[1].filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/laser-turret-mk2/hr-laser-turret-shooting-mk2.png"
-turret2.folding_animation.layers[1].filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/laser-turret-mk2/hr-laser-turret-raising-mk2.png"
-turret2.graphics_set.base_visualisation.animation.layers[1].filename = "__FactorioExtended-Plus-Weaponry__/graphics/entity/laser-turret-mk2/hr-laser-turret-base-mk2.png"
+turret2.folded_animation.layers[1].filename = "__FactorioExtended-Plus-Assets__/weaponry/entity/laser-turret-mk2/hr-laser-turret-raising-mk2.png"
+turret2.preparing_animation.layers[1].filename = "__FactorioExtended-Plus-Assets__/weaponry/entity/laser-turret-mk2/hr-laser-turret-raising-mk2.png"
+turret2.prepared_animation.layers[1].filename = "__FactorioExtended-Plus-Assets__/weaponry/entity/laser-turret-mk2/hr-laser-turret-shooting-mk2.png"
+turret2.folding_animation.layers[1].filename = "__FactorioExtended-Plus-Assets__/weaponry/entity/laser-turret-mk2/hr-laser-turret-raising-mk2.png"
+turret2.graphics_set.base_visualisation.animation.layers[1].filename = "__FactorioExtended-Plus-Assets__/weaponry/entity/laser-turret-mk2/hr-laser-turret-base-mk2.png"
 
 data:extend({turret2})
