@@ -1,4 +1,4 @@
-local Constant = require("constant")
+local Constant = require("__FactorioExtended-Plus-Core__/constant")
 
 local function CloneWithTint(source, name, subgroup, order, tint, icon_name, itype)
     local item = table.deepcopy(data.raw[itype or "item"][source])
