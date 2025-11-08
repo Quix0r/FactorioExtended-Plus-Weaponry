@@ -7,7 +7,7 @@
     "contributers": "billbo99",
     "description": "",
     "dependencies": [
-        "base >= 2.0.60",
+        "base >= 2.0.72",
         "FactorioExtended-Plus-Assets >= 0.0.1",
         "FactorioExtended-Plus-Core >= 2.0.6"
     ]
