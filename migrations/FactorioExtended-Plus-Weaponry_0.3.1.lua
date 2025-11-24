@@ -7,8 +7,8 @@ local function fix_turret_attack_modifier(tech_pattern, turret_name)
         local technologies = force.technologies
         local turret_attack_modifier = 0
         for tech, tech_table in pairs(technologies) do
-            if string.match(tech, tech_pattern) and tech_table.researched then
-                for _, effect_table in pairs(tech_table.effects) do
+            if string.match(tech, tech_pattern) and tech_table.prototype.effects ~= nil and tech_table.researched then
+                for _, effect_table in pairs(tech_table.prototype.effects) do
                     if effect_table.type == "turret-attack" and effect_table.turret_id == turret_name then
                         turret_attack_modifier = turret_attack_modifier + effect_table.modifier
                     end
