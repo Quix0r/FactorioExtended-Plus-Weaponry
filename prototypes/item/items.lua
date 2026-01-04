@@ -1,11 +1,11 @@
-local Constant = require("__FactorioExtended-Plus-Core__/constant")
+local Constant = require("__FactorioExtended-Plus-Core2__/constant")
 
 local function CloneWithTint(source, name, subgroup, order, tint, icon_name, itype)
     local item = table.deepcopy(data.raw[itype or "item"][source])
     item.name = name
     item.place_result = item.name
     if icon_name then
-        item.icon = string.format("__FactorioExtended-Plus-Assets__/weaponry/icons/%s", icon_name)
+        item.icon = string.format("__FactorioExtended-Plus-Assets2__/weaponry/icons/%s", icon_name)
     end
     item.icons = {{icon = item.icon, icon_mipmaps = 4, icon_size = 64, tint = tint}}
     item.subgroup = subgroup

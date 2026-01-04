@@ -1,4 +1,4 @@
-local Constant = require("__FactorioExtended-Plus-Core__/constant")
+local Constant = require("__FactorioExtended-Plus-Core2__/constant")
 
 local turret2 = table.deepcopy(data.raw["fluid-turret"]["flamethrower-turret"])
 turret2.name = "flamethrower-turret-mk2"
